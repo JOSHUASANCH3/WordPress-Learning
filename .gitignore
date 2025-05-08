@@ -1,101 +1,97 @@
-# Wordpress - ignore core, configuration, examples, uploads and logs.
-# https://github.com/github/gitignore/blob/main/WordPress.gitignore
+# -----------------------------------------------------------------------------
+# WordPress - Ignorar core, configuración, ejemplos, uploads y archivos locales
+# Basado en: https://github.com/github/gitignore/blob/main/WordPress.gitignore
+# -----------------------------------------------------------------------------
 
-# Core
-#
-# Note: if you want to stage/commit WP core files
-# you can delete this whole section/until Configuration.
+# -----------------------------------------------------------------------------
+# CORE DE WORDPRESS
+# -----------------------------------------------------------------------------
 /wp-admin/
-/wp-content/index.php
-/wp-content/languages
-/wp-content/plugins/index.php
-/wp-content/themes/index.php
 /wp-includes/
 /index.php
 /license.txt
 /readme.html
-/wp-*.php
 /xmlrpc.php
+/wp-*.php
 
-# Configuration
-wp-config.php
-
-# Example themes
-/wp-content/themes/twenty*/
-
-# Example plugin
-/wp-content/plugins/hello.php
-
-# Uploads
+# -----------------------------------------------------------------------------
+# CONTENIDO DE WP-CONTENT (index, idiomas, uploads, cachés, backups, etc.)
+# -----------------------------------------------------------------------------
+/wp-content/index.php
+/wp-content/languages/
 /wp-content/uploads/
+wp-content/cache/
+/wp-content/backups/
+/wp-content/updraft/
+/wp-content/wflogs/
+/wp-content/uploads/cache/
+/wp-content/advanced-cache.php
 
-# Log files
-*.log
+# -----------------------------------------------------------------------------
+# TEMAS Y PLUGINS DE EJEMPLO O NO PERSONALIZADOS
+# -----------------------------------------------------------------------------
+/wp-content/themes/index.php
+/wp-content/themes/twenty*/      # Ignorar temas por defecto
+/wp-content/themes/*             # Ignorar todos los temas...
+!/wp-content/themes/my-custom-theme/     # ...excepto este
+!/wp-content/themes/another-custom-theme/
 
-# htaccess
-/.htaccess
+#/wp-content/themes/            # (Descomentar si quieres ignorar carpeta raíz)
 
-# All plugins
-#
-# Note: If you wish to whitelist plugins,
-# uncomment the next line
+# Ignorar todos los plugins...
 /wp-content/plugins/*
-
-# Whitelist specific custom plugins
-!/wp-content/plugins/my-custom-plugin/
+!/wp-content/plugins/my-custom-plugin/    # ...excepto este
 !/wp-content/plugins/another-custom-plugin/
 
-# All themes
-#
-# Note: If you wish to whitelist themes,
-# uncomment the next line
-/wp-content/themes
+# -----------------------------------------------------------------------------
+# CONFIGURACIÓN Y ARCHIVOS SENSIBLES
+# -----------------------------------------------------------------------------
+wp-config.php
+/.htaccess
+.env
+.env.local
+.env.*.local
+local-config.php
+*.local-config.php
+*.local-config.*.php
 
-# Backup files
+# -----------------------------------------------------------------------------
+# LOGS, ARCHIVOS DE DEBUG Y TEMPORALES
+# -----------------------------------------------------------------------------
+*.log
+debug.log
+error_log
 *.bak
 *.backup
 *.swp
 *.tmp
 *.temp
 
-# Composer dependencies
+# -----------------------------------------------------------------------------
+# BASES DE DATOS LOCALES
+# -----------------------------------------------------------------------------
+*.sql
+*.sqlite
+
+# -----------------------------------------------------------------------------
+# DEPENDENCIAS DE NODE Y COMPOSER
+# -----------------------------------------------------------------------------
+/node_modules/
 /vendor/
-
-# Node.js dependencies
-node_modules/
-
-# Build files
 /dist/
 /build/
 
-# IDE/editor-specific files
+# -----------------------------------------------------------------------------
+# ARCHIVOS DE ENTORNOS DE DESARROLLO
+# -----------------------------------------------------------------------------
 .vscode/
 .idea/
 *.sublime-project
 *.sublime-workspace
 
-# OS-specific files
+# -----------------------------------------------------------------------------
+# ARCHIVOS DEL SISTEMA OPERATIVO
+# -----------------------------------------------------------------------------
 .DS_Store
 Thumbs.db
 desktop.ini
-
-# Cache files
-/wp-content/cache/
-/wp-content/advanced-cache.php
-/wp-content/backups/
-/wp-content/updraft/
-/wp-content/wflogs/
-/wp-content/uploads/cache/
-
-# Debugging files
-debug.log
-error_log
-
-# Environment files
-.env
-.env.local
-.env.*.local
-
-# Ignore the problematic file
-app/public/wp-content/plugins/
-app/public/wp-content/themes/
