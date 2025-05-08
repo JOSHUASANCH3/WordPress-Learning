@@ -1,1 +1,0 @@
-import{newE2EPage}from"@stencil/core/testing";describe("sc-provisional-banner",(()=>{it("renders",(async()=>{const n=await newE2EPage();await n.setContent("<sc-provisional-banner></sc-provisional-banner>");const e=await n.find("sc-provisional-banner");expect(e).toHaveClass("hydrated")}))}));

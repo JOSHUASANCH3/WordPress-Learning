@@ -1,1 +1,0 @@
-import{S as ScAlert$1,d as defineCustomElement$1}from"./sc-alert2.js";const ScAlert=ScAlert$1,defineCustomElement=defineCustomElement$1;export{ScAlert,defineCustomElement};

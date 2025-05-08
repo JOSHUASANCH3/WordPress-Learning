@@ -1,1 +1,0 @@
-import{S as ScCompactAddress$1,d as defineCustomElement$1}from"./sc-compact-address2.js";const ScCompactAddress=ScCompactAddress$1,defineCustomElement=defineCustomElement$1;export{ScCompactAddress,defineCustomElement};

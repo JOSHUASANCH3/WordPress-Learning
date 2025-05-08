@@ -1,1 +1,0 @@
-import{ScFormControl}from"../sc-form-control";import{newSpecPage}from"@stencil/core/testing";describe("sc-form-control",(()=>{it("renders",(async()=>{const o=await newSpecPage({components:[ScFormControl],html:"<sc-form-control></sc-form-control>"});expect(o.root).toMatchSnapshot()}))}));

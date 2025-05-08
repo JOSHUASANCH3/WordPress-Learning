@@ -1,1 +1,0 @@
-import{newE2EPage}from"@stencil/core/testing";describe("sc-paypal-add-method",(()=>{it("renders",(async()=>{const a=await newE2EPage();await a.setContent("<sc-paypal-add-method></sc-paypal-add-method>");const e=await a.find("sc-paypal-add-method");expect(e).toHaveClass("hydrated")}))}));

@@ -1,1 +1,0 @@
-import{S as ScInvoiceDetails$1,d as defineCustomElement$1}from"./sc-invoice-details2.js";const ScInvoiceDetails=ScInvoiceDetails$1,defineCustomElement=defineCustomElement$1;export{ScInvoiceDetails,defineCustomElement};

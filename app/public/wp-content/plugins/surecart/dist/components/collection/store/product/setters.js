@@ -1,1 +1,0 @@
-import state from"./store";export const setProduct=(t,e)=>{t&&(state[t]={...state[t],...e})};

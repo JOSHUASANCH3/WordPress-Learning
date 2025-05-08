@@ -1,1 +1,0 @@
-import{S as ScCancelDialog$1,d as defineCustomElement$1}from"./sc-cancel-dialog2.js";const ScCancelDialog=ScCancelDialog$1,defineCustomElement=defineCustomElement$1;export{ScCancelDialog,defineCustomElement};

@@ -1,1 +1,0 @@
-import{newSpecPage}from"@stencil/core/testing";import{ScInvoiceStatusBadge}from"../sc-invoice-status-badge";describe("sc-invoice-status-badge",(()=>{it("renders",(async()=>{const e=await newSpecPage({components:[ScInvoiceStatusBadge],html:"<sc-invoice-status-badge></sc-invoice-status-badge>"});expect(e.root).toMatchSnapshot()}))}));

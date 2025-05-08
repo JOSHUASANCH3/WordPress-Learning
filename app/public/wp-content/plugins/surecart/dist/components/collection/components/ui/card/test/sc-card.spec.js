@@ -1,1 +1,0 @@
-import{newSpecPage}from"@stencil/core/testing";import{ScCard}from"../sc-card";describe("sc-card",(()=>{it("renders",(async()=>{const c=await newSpecPage({components:[ScCard],html:"<sc-card></sc-card>"});expect(c.root).toMatchSnapshot()}))}));

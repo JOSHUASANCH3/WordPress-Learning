@@ -1,1 +1,0 @@
-import{newSpecPage}from"@stencil/core/testing";import{ScForm}from"../sc-form";describe("sc-form",(()=>{it("renders",(async()=>{const o=await newSpecPage({components:[ScForm],html:"<sc-form></sc-form>"});expect(o.root).toMatchSnapshot()}))}));

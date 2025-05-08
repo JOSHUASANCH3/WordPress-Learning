@@ -1,1 +1,0 @@
-import{newE2EPage}from"@stencil/core/testing";describe("sc-tooltip",(()=>{it("renders",(async()=>{const t=await newE2EPage();await t.setContent("<sc-tooltip></sc-tooltip>");const e=await t.find("sc-tooltip");expect(e).toHaveClass("hydrated")}))}));

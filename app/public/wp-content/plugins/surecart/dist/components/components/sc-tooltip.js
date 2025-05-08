@@ -1,1 +1,0 @@
-import{S as ScTooltip$1,d as defineCustomElement$1}from"./sc-tooltip2.js";const ScTooltip=ScTooltip$1,defineCustomElement=defineCustomElement$1;export{ScTooltip,defineCustomElement};

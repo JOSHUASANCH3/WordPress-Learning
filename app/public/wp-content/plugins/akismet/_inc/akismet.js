@@ -280,7 +280,7 @@ jQuery( function ( $ ) {
 	}
 	
 	if ( "start_recheck" in WPAkismet && WPAkismet.start_recheck ) {
-		$( '.checkforspam:first' ).click();
+		$( '.checkforspam' ).click();
 	}
 	
 	if ( typeof MutationObserver !== 'undefined' ) {

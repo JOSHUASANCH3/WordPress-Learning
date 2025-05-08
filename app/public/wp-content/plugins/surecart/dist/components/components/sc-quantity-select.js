@@ -1,1 +1,0 @@
-import{S as ScQuantitySelect$1,d as defineCustomElement$1}from"./sc-quantity-select2.js";const ScQuantitySelect=ScQuantitySelect$1,defineCustomElement=defineCustomElement$1;export{ScQuantitySelect,defineCustomElement};

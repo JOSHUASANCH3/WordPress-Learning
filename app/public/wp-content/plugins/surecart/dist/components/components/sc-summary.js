@@ -1,1 +1,0 @@
-import{S as ScOrderSummary,d as defineCustomElement$1}from"./sc-summary2.js";const ScSummary=ScOrderSummary,defineCustomElement=defineCustomElement$1;export{ScSummary,defineCustomElement};

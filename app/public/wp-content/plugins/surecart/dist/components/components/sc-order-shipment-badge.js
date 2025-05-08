@@ -1,1 +1,0 @@
-import{S as ScOrderShipmentBadge$1,d as defineCustomElement$1}from"./sc-order-shipment-badge2.js";const ScOrderShipmentBadge=ScOrderShipmentBadge$1,defineCustomElement=defineCustomElement$1;export{ScOrderShipmentBadge,defineCustomElement};

@@ -1,3 +1,0 @@
-.sc-product-data:not(:has(> :not([hidden]))) {
-	display: none;
-}

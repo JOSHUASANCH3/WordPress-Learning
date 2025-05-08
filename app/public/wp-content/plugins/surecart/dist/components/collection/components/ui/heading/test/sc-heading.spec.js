@@ -1,1 +1,0 @@
-import{newSpecPage}from"@stencil/core/testing";import{ScHeading}from"../sc-heading";describe("sc-heading",(()=>{it("renders",(async()=>{const e=await newSpecPage({components:[ScHeading],html:"<sc-heading></sc-heading>"});expect(e.root).toMatchSnapshot()}))}));

@@ -1,1 +1,0 @@
-import{S as ScCard$1,d as defineCustomElement$1}from"./sc-card2.js";const ScCard=ScCard$1,defineCustomElement=defineCustomElement$1;export{ScCard,defineCustomElement};

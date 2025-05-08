@@ -1,1 +1,0 @@
-import{createStore}from"@stencil/store";const{state:state,onChange:onChange,dispose:dispose}=createStore({id:"",method:"",manual:!1});export default state;export{state,onChange,dispose};

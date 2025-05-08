@@ -1,1 +1,0 @@
-import{newE2EPage}from"@stencil/core/testing";describe("sc-menu-item",(()=>{it("renders",(async()=>{const e=await newE2EPage();await e.setContent("<sc-menu-item></sc-menu-item>");const t=await e.find("sc-menu-item");expect(t).toHaveClass("hydrated")}))}));

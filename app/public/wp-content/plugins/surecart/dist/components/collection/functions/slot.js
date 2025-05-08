@@ -1,1 +1,0 @@
-export function getTextContent(t){const e=t?t.assignedNodes({flatten:!0}):[];let n="";return[...e].map((t=>{t.nodeType===Node.TEXT_NODE&&(n+=t.textContent)})),n}

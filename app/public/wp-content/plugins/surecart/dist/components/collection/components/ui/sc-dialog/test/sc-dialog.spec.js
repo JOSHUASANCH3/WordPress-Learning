@@ -1,1 +1,0 @@
-import{newSpecPage}from"@stencil/core/testing";import{ScDialog}from"../sc-dialog";describe("sc-dialog",(()=>{it("renders",(async()=>{const o=await newSpecPage({components:[ScDialog],html:"<sc-dialog></sc-dialog>"});expect(o.root).toMatchSnapshot()}))}));

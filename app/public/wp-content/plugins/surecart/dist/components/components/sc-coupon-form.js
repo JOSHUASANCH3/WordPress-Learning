@@ -1,1 +1,0 @@
-import{S as ScCouponForm$1,d as defineCustomElement$1}from"./sc-coupon-form2.js";const ScCouponForm=ScCouponForm$1,defineCustomElement=defineCustomElement$1;export{ScCouponForm,defineCustomElement};

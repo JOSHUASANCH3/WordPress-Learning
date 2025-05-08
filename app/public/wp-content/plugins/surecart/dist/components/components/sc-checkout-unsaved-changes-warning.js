@@ -1,1 +1,0 @@
-import{S as ScCheckoutUnsavedChangesWarning$1,d as defineCustomElement$1}from"./sc-checkout-unsaved-changes-warning2.js";const ScCheckoutUnsavedChangesWarning=ScCheckoutUnsavedChangesWarning$1,defineCustomElement=defineCustomElement$1;export{ScCheckoutUnsavedChangesWarning,defineCustomElement};

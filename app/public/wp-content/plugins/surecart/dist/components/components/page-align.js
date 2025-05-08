@@ -1,1 +1,0 @@
-function isRtl(){return"rtl"===document.dir}export{isRtl as i};

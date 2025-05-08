@@ -1,1 +1,0 @@
-import{S as ScOrderBillingAddress$1,d as defineCustomElement$1}from"./sc-order-billing-address2.js";const ScOrderBillingAddress=ScOrderBillingAddress$1,defineCustomElement=defineCustomElement$1;export{ScOrderBillingAddress,defineCustomElement};

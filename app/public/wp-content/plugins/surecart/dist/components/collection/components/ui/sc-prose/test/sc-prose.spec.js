@@ -1,1 +1,0 @@
-import{newSpecPage}from"@stencil/core/testing";import{ScProse}from"../sc-prose";describe("sc-prose",(()=>{it("renders",(async()=>{const o=await newSpecPage({components:[ScProse],html:"<sc-prose></sc-prose>"});expect(o.root).toEqualHtml("\n      <sc-prose>\n        <mock:shadow-root>\n          <slot></slot>\n        </mock:shadow-root>\n      </sc-prose>\n    ")}))}));

@@ -1,1 +1,0 @@
-import{S as ScSubscriptionStatusBadge$1,d as defineCustomElement$1}from"./sc-subscription-status-badge2.js";const ScSubscriptionStatusBadge=ScSubscriptionStatusBadge$1,defineCustomElement=defineCustomElement$1;export{ScSubscriptionStatusBadge,defineCustomElement};

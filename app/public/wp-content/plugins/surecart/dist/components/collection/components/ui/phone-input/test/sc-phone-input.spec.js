@@ -1,1 +1,0 @@
-import{newSpecPage}from"@stencil/core/testing";import{ScPhoneInput}from"../sc-phone-input";describe("sc-phone-input",(()=>{it("renders",(async()=>{const e=await newSpecPage({components:[ScPhoneInput],html:"<sc-phone-input></sc-phone-input>"});expect(e.root).toMatchSnapshot()}))}));

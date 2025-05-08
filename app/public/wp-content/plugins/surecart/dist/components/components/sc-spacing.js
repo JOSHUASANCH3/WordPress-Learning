@@ -1,1 +1,0 @@
-import{S as ScSpacing$1,d as defineCustomElement$1}from"./sc-spacing2.js";const ScSpacing=ScSpacing$1,defineCustomElement=defineCustomElement$1;export{ScSpacing,defineCustomElement};

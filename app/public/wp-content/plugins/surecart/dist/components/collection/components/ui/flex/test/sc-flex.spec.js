@@ -1,1 +1,0 @@
-import{newSpecPage}from"@stencil/core/testing";import{ScFlex}from"../sc-flex";describe("sc-flex",(()=>{it("renders",(async()=>{const e=await newSpecPage({components:[ScFlex],html:"<sc-flex></sc-flex>"});expect(e.root).toMatchSnapshot()}))}));

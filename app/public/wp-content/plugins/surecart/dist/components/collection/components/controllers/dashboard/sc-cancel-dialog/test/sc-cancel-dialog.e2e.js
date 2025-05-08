@@ -1,1 +1,0 @@
-import{newE2EPage}from"@stencil/core/testing";describe("sc-cancel-dialog",(()=>{it("renders",(async()=>{const e=await newE2EPage();await e.setContent("<sc-cancel-dialog></sc-cancel-dialog>");const a=await e.find("sc-cancel-dialog");expect(a).toHaveClass("hydrated")}))}));

@@ -1,1 +1,0 @@
-import{S as ScPagination$1,d as defineCustomElement$1}from"./sc-pagination2.js";const ScPagination=ScPagination$1,defineCustomElement=defineCustomElement$1;export{ScPagination,defineCustomElement};

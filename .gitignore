@@ -96,9 +96,6 @@ error_log
 .env.local
 .env.*.local
 
-# Other WordPress-specific files
-/wp-content/mu-plugins/
-
 # Ignore the problematic file
 app/public/wp-content/plugins/
 app/public/wp-content/themes/

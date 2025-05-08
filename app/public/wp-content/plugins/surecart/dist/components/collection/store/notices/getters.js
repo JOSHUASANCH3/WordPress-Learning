@@ -1,1 +1,0 @@
-import state from"./store";export const getAdditionalErrorMessages=()=>((null==state?void 0:state.additional_errors)||[]).map((t=>t.message));

@@ -1,1 +1,0 @@
-export function serialize(r){const e=new FormData(r),n={};return e.forEach(((r,e)=>{n[e]=r})),n}

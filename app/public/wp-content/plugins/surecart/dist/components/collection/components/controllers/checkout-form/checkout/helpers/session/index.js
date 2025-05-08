@@ -1,1 +1,0 @@
-import{getQueryArg}from"@wordpress/url";export const getSessionId=(r,e)=>{if(null==e?void 0:e.id)return e.id;return getQueryArg(window.location.href,"order")||window.localStorage.getItem(r)};

@@ -1,1 +1,0 @@
-import{S as ScChoiceContainer$1,d as defineCustomElement$1}from"./sc-choice-container2.js";const ScChoiceContainer=ScChoiceContainer$1,defineCustomElement=defineCustomElement$1;export{ScChoiceContainer,defineCustomElement};

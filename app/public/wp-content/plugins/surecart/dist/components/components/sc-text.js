@@ -1,1 +1,0 @@
-import{S as ScText$1,d as defineCustomElement$1}from"./sc-text2.js";const ScText=ScText$1,defineCustomElement=defineCustomElement$1;export{ScText,defineCustomElement};

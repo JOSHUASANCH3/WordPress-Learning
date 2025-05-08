@@ -1,1 +1,0 @@
-import registerIcons from"../components/ui/icon/register";registerIcons();export{registerIcons};

@@ -1,1 +1,0 @@
-import{newSpecPage}from"@stencil/core/testing";import{ScOrderConfirmProvider}from"../sc-order-confirm-provider";describe("sc-order-confirm-provider",(()=>{it("renders",(async()=>{const r=await newSpecPage({components:[ScOrderConfirmProvider],html:"<sc-order-confirm-provider></sc-order-confirm-provider>"});expect(r.root).toMatchSnapshot()}))}));

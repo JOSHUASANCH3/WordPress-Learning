@@ -1,1 +1,0 @@
-import{S as ScTable$1,d as defineCustomElement$1}from"./sc-table2.js";const ScTable=ScTable$1,defineCustomElement=defineCustomElement$1;export{ScTable,defineCustomElement};

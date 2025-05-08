@@ -1,1 +1,0 @@
-import{S as ScCheckoutMolliePayment$1,d as defineCustomElement$1}from"./sc-checkout-mollie-payment2.js";const ScCheckoutMolliePayment=ScCheckoutMolliePayment$1,defineCustomElement=defineCustomElement$1;export{ScCheckoutMolliePayment,defineCustomElement};

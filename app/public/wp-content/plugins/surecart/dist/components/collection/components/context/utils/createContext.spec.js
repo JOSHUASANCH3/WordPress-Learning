@@ -1,1 +1,0 @@
-import{createContext}from"./createContext";describe("createContext",(()=>{it("returns Provider and Consumer",(()=>{const e=createContext({});expect(e.Provider).toBeTruthy(),expect(e.Consumer).toBeTruthy()}))}));

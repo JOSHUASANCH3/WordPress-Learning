@@ -1,1 +1,0 @@
-import{S as ScSessionProvider$1,d as defineCustomElement$1}from"./sc-session-provider2.js";const ScSessionProvider=ScSessionProvider$1,defineCustomElement=defineCustomElement$1;export{ScSessionProvider,defineCustomElement};

@@ -1,1 +1,0 @@
-import{newE2EPage}from"@stencil/core/testing";describe("sc-total",(()=>{it("renders",(async()=>{const t=await newE2EPage();await t.setContent("<sc-total></sc-total>");const e=await t.find("sc-total");expect(e).toHaveClass("hydrated")}))}));

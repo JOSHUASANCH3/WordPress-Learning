@@ -1,1 +1,0 @@
-import{S as ScOrderStatusBadge$1,d as defineCustomElement$1}from"./sc-order-status-badge2.js";const ScOrderStatusBadge=ScOrderStatusBadge$1,defineCustomElement=defineCustomElement$1;export{ScOrderStatusBadge,defineCustomElement};

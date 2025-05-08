@@ -1,1 +1,0 @@
-import{S as ScDrawer$1,d as defineCustomElement$1}from"./sc-drawer2.js";const ScDrawer=ScDrawer$1,defineCustomElement=defineCustomElement$1;export{ScDrawer,defineCustomElement};

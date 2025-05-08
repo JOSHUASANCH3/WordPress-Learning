@@ -1,1 +1,0 @@
-import{createStore}from"@stencil/store";import{getSerializedState}from"../utils";const{user:user}=getSerializedState(),{state:state,onChange:onChange,dispose:dispose}=createStore({loggedIn:!1,email:"",name:"",...user});export default state;export{state,onChange,dispose};

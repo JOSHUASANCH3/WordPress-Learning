@@ -1,1 +1,0 @@
-import{S as ScOrderManualInstructions$1,d as defineCustomElement$1}from"./sc-order-manual-instructions2.js";const ScOrderManualInstructions=ScOrderManualInstructions$1,defineCustomElement=defineCustomElement$1;export{ScOrderManualInstructions,defineCustomElement};

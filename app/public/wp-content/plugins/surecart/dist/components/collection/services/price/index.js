@@ -1,1 +1,0 @@
-import apiFetch from"../../functions/fetch";import{addQueryArgs}from"@wordpress/url";const path="surecart/v1/price/";export const getPrices=async({query:r,currencyCode:e="usd"})=>(await apiFetch({path:addQueryArgs(path,r)})).filter((r=>r.currency&&r.currency===e));

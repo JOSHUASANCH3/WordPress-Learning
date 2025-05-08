@@ -1,1 +1,0 @@
-import{S as ScDivider$1,d as defineCustomElement$1}from"./sc-divider2.js";const ScDivider=ScDivider$1,defineCustomElement=defineCustomElement$1;export{ScDivider,defineCustomElement};

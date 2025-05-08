@@ -1,1 +1,0 @@
-import{S as ScDialog$1,d as defineCustomElement$1}from"./sc-dialog2.js";const ScDialog=ScDialog$1,defineCustomElement=defineCustomElement$1;export{ScDialog,defineCustomElement};

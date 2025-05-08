@@ -1,1 +1,0 @@
-import{newSpecPage}from"@stencil/core/testing";import{ScColumns}from"../sc-columns";describe("sc-columns",(()=>{it("renders",(async()=>{const c=await newSpecPage({components:[ScColumns],html:"<sc-columns></sc-columns>"});expect(c.root).toMatchSnapshot()}))}));

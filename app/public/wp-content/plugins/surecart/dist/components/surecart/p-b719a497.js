@@ -1,1 +1,0 @@
-const o=(e,o)=>{const t=new window.IntersectionObserver(((e,t)=>{e[0].intersectionRatio>0&&(o(),t.unobserve(e[0].target))}));t.observe(e)};export{o};

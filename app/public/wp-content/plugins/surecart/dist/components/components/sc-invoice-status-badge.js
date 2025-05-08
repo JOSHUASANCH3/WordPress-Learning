@@ -1,1 +1,0 @@
-import{S as ScInvoiceStatusBadge$1,d as defineCustomElement$1}from"./sc-invoice-status-badge2.js";const ScInvoiceStatusBadge=ScInvoiceStatusBadge$1,defineCustomElement=defineCustomElement$1;export{ScInvoiceStatusBadge,defineCustomElement};

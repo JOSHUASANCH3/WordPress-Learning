@@ -1,1 +1,0 @@
-import{S as ScCcLogo$1,d as defineCustomElement$1}from"./sc-cc-logo2.js";const ScCcLogo=ScCcLogo$1,defineCustomElement=defineCustomElement$1;export{ScCcLogo,defineCustomElement};

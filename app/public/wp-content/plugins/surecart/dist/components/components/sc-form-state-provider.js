@@ -1,1 +1,0 @@
-import{S as ScFormStateProvider$1,d as defineCustomElement$1}from"./sc-form-state-provider2.js";const ScFormStateProvider=ScFormStateProvider$1,defineCustomElement=defineCustomElement$1;export{ScFormStateProvider,defineCustomElement};

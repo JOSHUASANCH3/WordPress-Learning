@@ -1,1 +1,0 @@
-import{S as ScFlex$1,d as defineCustomElement$1}from"./sc-flex2.js";const ScFlex=ScFlex$1,defineCustomElement=defineCustomElement$1;export{ScFlex,defineCustomElement};
