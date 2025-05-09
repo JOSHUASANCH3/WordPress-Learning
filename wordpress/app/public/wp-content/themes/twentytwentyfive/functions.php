@@ -9,6 +9,20 @@
  * @since Twenty Twenty-Five 1.0
  */
 
+ // Prevent direct access to template files in WordPress.
+ function disable_wp_frontend() {
+		 // If this is a query from the admin dashboard or the REST API, do nothing.
+		 if (is_admin() || strpos($_SERVER['REQUEST_URI'], '/wp-json/') === 0) {
+				 return;
+		 }
+ 
+		 // Redirect to localhost:3000
+		 wp_redirect('http://localhost:3000', 301);
+		 exit;
+ }
+ 
+ add_action('template_redirect', 'disable_wp_frontend');
+
 // Adds theme support for post formats.
 if ( ! function_exists( 'twentytwentyfive_post_format_setup' ) ) :
 	/**
