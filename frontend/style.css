@@ -6,63 +6,191 @@
 }
 
 body {
-  font-family: 'Arial', sans-serif;
-  line-height: 1.6;
+  font-family: 'Montserrat', sans-serif;
   color: #333;
-  background-color: #f9f9f9;
+  line-height: 1.6;
 }
 
-/* Navigation Bar */
+/* Navigation */
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffffff;
-  padding: 10px 40px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px 40px;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
 }
 
-nav .brand {
+.brand {
+  font-weight: 700;
   font-size: 1.5rem;
-  font-weight: bold;
-  color: #2e7d32;
+  letter-spacing: 1px;
 }
 
 nav ul {
-  list-style: none;
   display: flex;
-  gap: 20px;
-}
-
-nav ul li {
-  font-size: 1rem;
+  list-style: none;
+  gap: 30px;
 }
 
 nav ul li a {
   text-decoration: none;
   color: #333;
-  font-weight: bold;
-  transition: color 0.3s ease;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
 }
 
-nav ul li a:hover {
-  color: #4caf50;
-}
-
-/* Mobile Menu Toggle */
 .mobile-menu-toggle {
   display: none;
-  cursor: pointer;
   font-size: 1.5rem;
+  cursor: pointer;
 }
 
+/* Hero Section */
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #f5f5f5;
+  padding-top: 80px;
+}
+
+.hero-content h1 {
+  font-size: 8rem;
+  font-weight: 900;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  letter-spacing: 3px;
+  margin-bottom: 40px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 40px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #555;
+  transform: translateY(-3px);
+}
+
+/* Testimonials */
+.testimonials {
+  padding: 100px 20px;
+  text-align: center;
+  background-color: white;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.rating {
+  font-size: 5rem;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
+.testimonial-text {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+/* Postcard Section */
+.postcard {
+  padding: 100px 20px;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+.postcard h2 {
+  font-size: 2rem;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.postcard p {
+  font-size: 1.2rem;
+  margin-bottom: 50px;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.feature h3 {
+  padding: 30px 20px;
+  background-color: white;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+
+/* Footer */
+footer {
+  padding: 60px 20px 30px;
+  text-align: center;
+  background-color: #333;
+  color: white;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+footer .brand {
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* Responsive */
 @media (max-width: 768px) {
   nav ul {
-    flex-direction: column;
     display: none;
-    background-color: #fff;
+    position: absolute;
+    top: 80px;
+    left: 0;
     width: 100%;
-    text-align: center;
+    background-color: white;
+    flex-direction: column;
+    padding: 20px 0;
   }
 
   nav ul.active {
@@ -72,109 +200,12 @@ nav ul li a:hover {
   .mobile-menu-toggle {
     display: block;
   }
-}
 
-/* Header Section */
-header {
-  text-align: center;
-  padding: 50px 20px;
-  background: linear-gradient(to bottom, #e0f7fa, #ffffff);
-}
-
-/* Hero Section Styles */
-.hero {
-  position: relative;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: white;
-  overflow: hidden;
-}
-
-.hero-content {
-  position: relative;
-  z-index: 2;
-}
-
-.large-title {
-  font-size: 8rem;
-  font-weight: bold;
-  margin-bottom: 1rem;
-  text-transform: uppercase;
-  letter-spacing: 0.5rem;
-}
-
-.subtitle {
-  font-size: 1.5rem;
-  margin-bottom: 2rem;
-  letter-spacing: 0.2rem;
-}
-
-.header-image img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
-  z-index: 1;
-}
-
-/* About & Contact Sections */
-section {
-  padding: 40px 20px;
-  text-align: center;
-}
-
-section h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-  color: #2e7d32;
-}
-
-section p {
-  font-size: 1rem;
-  color: #555;
-}
-
-/* Footer */
-footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #2e7d32;
-  color: #fff;
-  font-size: 0.9rem;
-}
-
-/* Sticky Navigation */
-nav.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-}
-
-@media (max-width: 768px) {
-  .large-title {
+  .hero-content h1 {
     font-size: 4rem;
   }
-  
-  .subtitle {
-    font-size: 1.2rem;
-  }
-  
-  nav {
-    padding: 10px 20px;
+
+  .features {
+    grid-template-columns: 1fr;
   }
 }
