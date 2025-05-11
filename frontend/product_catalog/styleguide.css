@@ -1,0 +1,300 @@
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  --websitedemosnet-alto: #d9d9d9;
+  --websitedemosnet-athens-gray: #eaeaea;
+  --websitedemosnet-black: #000000;
+  --websitedemosnet-black: #050505;
+  --websitedemosnet-boulder: #757575;
+  --websitedemosnet-boulder: #777777;
+  --websitedemosnet-chelsea-cucumber: #74a84a;
+  --websitedemosnet-dove-gray: #666666;
+  --websitedemosnet-emperor: #515151;
+  --websitedemosnet-fedora: #6b6a6b;
+  --websitedemosnet-gallery: #ededed;
+  --websitedemosnet-gull-gray: #9aaab4;
+  --websitedemosnet-mercury: #eaeaea;
+  --websitedemosnet-pale-sky: #66757f;
+  --websitedemosnet-regent-gray: #8899a6;
+  --websitedemosnet-scorpion: #585858;
+  --websitedemosnet-seaweed: #2c541d;
+  --websitedemosnet-tropical-blue: #bbddf5;
+  --websitedemosnet-white: #ffffff;
+  --websitedemosnet-white-02: rgba(255, 255, 255, 0);
+  --websitedemosnet-white-white: linear-gradient(to left, #ffffff, #ffffff),
+    linear-gradient(to left, #ffffff, #ffffff);
+
+  /* Fonts */
+  --websitedemosnet-semantic-heading-1-upper-font-family: Jost-Regular,
+    sans-serif;
+  --websitedemosnet-semantic-heading-1-upper-font-size: 30px;
+  --websitedemosnet-semantic-heading-1-upper-line-height: 36px;
+  --websitedemosnet-semantic-heading-1-upper-font-weight: 400;
+  --websitedemosnet-semantic-heading-1-upper-font-style: normal;
+  --websitedemosnet-semantic-heading-1-upper-font-family: Jost-Regular,
+    sans-serif;
+  --websitedemosnet-semantic-heading-1-upper-font-size: 70px;
+  --websitedemosnet-semantic-heading-1-upper-line-height: 98px;
+  --websitedemosnet-semantic-heading-1-upper-font-weight: 400;
+  --websitedemosnet-semantic-heading-1-upper-font-style: normal;
+  --websitedemosnet-semantic-heading-1-upper-font-family: Jost-Medium,
+    sans-serif;
+  --websitedemosnet-semantic-heading-1-upper-font-size: 70px;
+  --websitedemosnet-semantic-heading-1-upper-line-height: 98px;
+  --websitedemosnet-semantic-heading-1-upper-font-weight: 500;
+  --websitedemosnet-semantic-heading-1-upper-font-style: normal;
+  --websitedemosnet-semantic-heading-1-upper-font-family: Jost-Medium,
+    sans-serif;
+  --websitedemosnet-semantic-heading-1-upper-font-size: 80px;
+  --websitedemosnet-semantic-heading-1-upper-line-height: 80px;
+  --websitedemosnet-semantic-heading-1-upper-font-weight: 500;
+  --websitedemosnet-semantic-heading-1-upper-font-style: normal;
+  --websitedemosnet-semantic-heading-2-upper-font-family: Jost-Medium,
+    sans-serif;
+  --websitedemosnet-semantic-heading-2-upper-font-size: 17px;
+  --websitedemosnet-semantic-heading-2-upper-line-height: 22.1px;
+  --websitedemosnet-semantic-heading-2-upper-font-weight: 500;
+  --websitedemosnet-semantic-heading-2-upper-font-style: normal;
+  --websitedemosnet-semantic-heading-2-upper-font-family: Jost-Medium,
+    sans-serif;
+  --websitedemosnet-semantic-heading-2-upper-font-size: 20.399999618530273px;
+  --websitedemosnet-semantic-heading-2-upper-line-height: 26.52px;
+  --websitedemosnet-semantic-heading-2-upper-font-weight: 500;
+  --websitedemosnet-semantic-heading-2-upper-font-style: normal;
+  --websitedemosnet-semantic-heading-2-upper-font-family: Jost-Medium,
+    sans-serif;
+  --websitedemosnet-semantic-heading-2-upper-font-size: 24px;
+  --websitedemosnet-semantic-heading-2-upper-line-height: 36px;
+  --websitedemosnet-semantic-heading-2-upper-font-weight: 500;
+  --websitedemosnet-semantic-heading-2-upper-font-style: normal;
+  --websitedemosnet-semantic-heading-2-upper-font-family: Jost-Medium,
+    sans-serif;
+  --websitedemosnet-semantic-heading-2-upper-font-size: 36px;
+  --websitedemosnet-semantic-heading-2-upper-line-height: 46.8px;
+  --websitedemosnet-semantic-heading-2-upper-font-weight: 500;
+  --websitedemosnet-semantic-heading-2-upper-font-style: normal;
+  --websitedemosnet-semantic-heading-2-upper-font-family: Jost-Medium,
+    sans-serif;
+  --websitedemosnet-semantic-heading-2-upper-font-size: 37px;
+  --websitedemosnet-semantic-heading-2-upper-line-height: 48.1px;
+  --websitedemosnet-semantic-heading-2-upper-font-weight: 500;
+  --websitedemosnet-semantic-heading-2-upper-font-style: normal;
+  --websitedemosnet-semantic-heading-2-upper-font-family: Jost-Light, sans-serif;
+  --websitedemosnet-semantic-heading-2-upper-font-size: 40px;
+  --websitedemosnet-semantic-heading-2-upper-line-height: 52px;
+  --websitedemosnet-semantic-heading-2-upper-font-weight: 300;
+  --websitedemosnet-semantic-heading-2-upper-font-style: normal;
+  --websitedemosnet-semantic-heading-2-upper-font-family: Jost-Medium,
+    sans-serif;
+  --websitedemosnet-semantic-heading-2-upper-font-size: 41px;
+  --websitedemosnet-semantic-heading-2-upper-line-height: 53.3px;
+  --websitedemosnet-semantic-heading-2-upper-font-weight: 500;
+  --websitedemosnet-semantic-heading-2-upper-font-style: normal;
+  --websitedemosnet-semantic-heading-2-upper-font-family: Jost-Medium,
+    sans-serif;
+  --websitedemosnet-semantic-heading-2-upper-font-size: 41px;
+  --websitedemosnet-semantic-heading-2-upper-line-height: 53.3px;
+  --websitedemosnet-semantic-heading-2-upper-font-weight: 500;
+  --websitedemosnet-semantic-heading-2-upper-font-style: normal;
+  --websitedemosnet-semantic-heading-2-upper-font-family: Jost-Medium,
+    sans-serif;
+  --websitedemosnet-semantic-heading-2-upper-font-size: 41px;
+  --websitedemosnet-semantic-heading-2-upper-line-height: 53.3px;
+  --websitedemosnet-semantic-heading-2-upper-font-weight: 500;
+  --websitedemosnet-semantic-heading-2-upper-font-style: normal;
+  --websitedemosnet-semantic-heading-3-upper-font-family: Jost-Medium,
+    sans-serif;
+  --websitedemosnet-semantic-heading-3-upper-font-size: 24px;
+  --websitedemosnet-semantic-heading-3-upper-line-height: 31.2px;
+  --websitedemosnet-semantic-heading-3-upper-font-weight: 500;
+  --websitedemosnet-semantic-heading-3-upper-font-style: normal;
+  --websitedemosnet-semantic-heading-3-upper-font-family: Roboto-Regular,
+    sans-serif;
+  --websitedemosnet-semantic-heading-3-upper-font-size: 16px;
+  --websitedemosnet-semantic-heading-3-upper-line-height: 20.8px;
+  --websitedemosnet-semantic-heading-3-upper-font-weight: 400;
+  --websitedemosnet-semantic-heading-3-upper-font-style: normal;
+  --websitedemosnet-semantic-heading-4-upper-font-family: Jost-Medium,
+    sans-serif;
+  --websitedemosnet-semantic-heading-4-upper-font-size: 20px;
+  --websitedemosnet-semantic-heading-4-upper-line-height: 25px;
+  --websitedemosnet-semantic-heading-4-upper-font-weight: 500;
+  --websitedemosnet-semantic-heading-4-upper-font-style: normal;
+  --websitedemosnet-semantic-heading-6-upper-font-family: Jost-Medium,
+    sans-serif;
+  --websitedemosnet-semantic-heading-6-upper-font-size: 15px;
+  --websitedemosnet-semantic-heading-6-upper-line-height: 18.75px;
+  --websitedemosnet-semantic-heading-6-upper-font-weight: 500;
+  --websitedemosnet-semantic-heading-6-upper-font-style: normal;
+  --websitedemosnet-semantic-input-font-family: Roboto-Regular, sans-serif;
+  --websitedemosnet-semantic-input-font-size: 17px;
+  --websitedemosnet-semantic-input-line-height: normal;
+  --websitedemosnet-semantic-input-font-weight: 400;
+  --websitedemosnet-semantic-input-font-style: normal;
+  --websitedemosnet-semantic-input-font-family: Roboto-Regular, sans-serif;
+  --websitedemosnet-semantic-input-font-size: 17px;
+  --websitedemosnet-semantic-input-line-height: 28.9px;
+  --websitedemosnet-semantic-input-font-weight: 400;
+  --websitedemosnet-semantic-input-font-style: normal;
+  --websitedemosnet-semantic-item-font-family: Roboto-Regular, sans-serif;
+  --websitedemosnet-semantic-item-font-size: 14.5px;
+  --websitedemosnet-semantic-item-line-height: 18.79px;
+  --websitedemosnet-semantic-item-font-weight: 400;
+  --websitedemosnet-semantic-item-font-style: normal;
+  --websitedemosnet-semantic-item-font-family: Roboto-Bold, sans-serif;
+  --websitedemosnet-semantic-item-font-size: 15.300000190734863px;
+  --websitedemosnet-semantic-item-line-height: 19.89px;
+  --websitedemosnet-semantic-item-font-weight: 700;
+  --websitedemosnet-semantic-item-font-style: normal;
+  --websitedemosnet-semantic-item-font-family: Roboto-Regular, sans-serif;
+  --websitedemosnet-semantic-item-font-size: 17px;
+  --websitedemosnet-semantic-item-line-height: 34px;
+  --websitedemosnet-semantic-item-font-weight: 400;
+  --websitedemosnet-semantic-item-font-style: normal;
+  --websitedemosnet-semantic-item-font-family: Roboto-Regular, sans-serif;
+  --websitedemosnet-semantic-item-font-size: 17px;
+  --websitedemosnet-semantic-item-line-height: 25.5px;
+  --websitedemosnet-semantic-item-font-weight: 400;
+  --websitedemosnet-semantic-item-font-style: normal;
+  --websitedemosnet-semantic-item-font-family: Roboto-Regular, sans-serif;
+  --websitedemosnet-semantic-item-font-size: 17px;
+  --websitedemosnet-semantic-item-line-height: 28.9px;
+  --websitedemosnet-semantic-item-font-weight: 400;
+  --websitedemosnet-semantic-item-font-style: normal;
+  --websitedemosnet-semantic-label-font-family: Roboto-Regular, sans-serif;
+  --websitedemosnet-semantic-label-font-size: 14.899999618530273px;
+  --websitedemosnet-semantic-label-line-height: 29.75px;
+  --websitedemosnet-semantic-label-font-weight: 400;
+  --websitedemosnet-semantic-label-font-style: normal;
+  --websitedemosnet-semantic-link-font-family: Roboto-Bold, sans-serif;
+  --websitedemosnet-semantic-link-font-size: 11px;
+  --websitedemosnet-semantic-link-line-height: 17px;
+  --websitedemosnet-semantic-link-font-weight: 700;
+  --websitedemosnet-semantic-link-font-style: normal;
+  --websitedemosnet-semantic-link-font-family: Roboto-Regular, sans-serif;
+  --websitedemosnet-semantic-link-font-size: 15px;
+  --websitedemosnet-semantic-link-line-height: 28.9px;
+  --websitedemosnet-semantic-link-font-weight: 400;
+  --websitedemosnet-semantic-link-font-style: normal;
+  --websitedemosnet-semantic-link-font-family: Roboto-Regular, sans-serif;
+  --websitedemosnet-semantic-link-font-size: 17px;
+  --websitedemosnet-semantic-link-line-height: 28.9px;
+  --websitedemosnet-semantic-link-font-weight: 400;
+  --websitedemosnet-semantic-link-font-style: normal;
+  --websitedemosnet-semantic-link-upper-font-family: Roboto-Regular, sans-serif;
+  --websitedemosnet-semantic-link-upper-font-size: 17px;
+  --websitedemosnet-semantic-link-upper-line-height: 100px;
+  --websitedemosnet-semantic-link-upper-font-weight: 400;
+  --websitedemosnet-semantic-link-upper-font-style: normal;
+  --websitedemosnet-semantic-options-font-family: Roboto-Regular, sans-serif;
+  --websitedemosnet-semantic-options-font-size: 17px;
+  --websitedemosnet-semantic-options-line-height: 20px;
+  --websitedemosnet-semantic-options-font-weight: 400;
+  --websitedemosnet-semantic-options-font-style: normal;
+  --websitedemosnet-semantic-strong-font-family: Roboto-Italic, sans-serif;
+  --websitedemosnet-semantic-strong-font-size: 17px;
+  --websitedemosnet-semantic-strong-line-height: 28.9px;
+  --websitedemosnet-semantic-strong-font-weight: 400;
+  --websitedemosnet-semantic-strong-font-style: italic;
+  --websitedemosnet-semantic-strong-font-family: Roboto-Bold, sans-serif;
+  --websitedemosnet-semantic-strong-font-size: 17px;
+  --websitedemosnet-semantic-strong-line-height: 28.9px;
+  --websitedemosnet-semantic-strong-font-weight: 700;
+  --websitedemosnet-semantic-strong-font-style: normal;
+  --websitedemosnet-semantic-textarea-font-family: Roboto-Regular, sans-serif;
+  --websitedemosnet-semantic-textarea-font-size: 17px;
+  --websitedemosnet-semantic-textarea-line-height: 28.9px;
+  --websitedemosnet-semantic-textarea-font-weight: 400;
+  --websitedemosnet-semantic-textarea-font-style: normal;
+  --websitedemosnet-font-awesome-5-brands-regular-font-family: FontAwesome5Brands-Regular,
+    sans-serif;
+  --websitedemosnet-font-awesome-5-brands-regular-font-size: 16px;
+  --websitedemosnet-font-awesome-5-brands-regular-line-height: 16px;
+  --websitedemosnet-font-awesome-5-brands-regular-font-weight: 400;
+  --websitedemosnet-font-awesome-5-brands-regular-font-style: normal;
+  --websitedemosnet-font-awesome-5-free-solid-font-family: FontAwesome5Free-Solid,
+    sans-serif;
+  --websitedemosnet-font-awesome-5-free-solid-font-size: 24px;
+  --websitedemosnet-font-awesome-5-free-solid-line-height: 24px;
+  --websitedemosnet-font-awesome-5-free-solid-font-weight: 400;
+  --websitedemosnet-font-awesome-5-free-solid-font-style: normal;
+  --websitedemosnet-font-awesome-5-free-solid-font-family: FontAwesome5Free-Solid,
+    sans-serif;
+  --websitedemosnet-font-awesome-5-free-solid-font-size: 16px;
+  --websitedemosnet-font-awesome-5-free-solid-line-height: 16px;
+  --websitedemosnet-font-awesome-5-free-solid-font-weight: 400;
+  --websitedemosnet-font-awesome-5-free-solid-font-style: normal;
+  --websitedemosnet-jost-regular-font-family: Jost-Regular, sans-serif;
+  --websitedemosnet-jost-regular-font-size: 25px;
+  --websitedemosnet-jost-regular-line-height: 35px;
+  --websitedemosnet-jost-regular-font-weight: 400;
+  --websitedemosnet-jost-regular-font-style: normal;
+  --websitedemosnet-roboto-regular-upper-font-family: Roboto-Regular, sans-serif;
+  --websitedemosnet-roboto-regular-upper-font-size: 16px;
+  --websitedemosnet-roboto-regular-upper-line-height: 16px;
+  --websitedemosnet-roboto-regular-upper-font-weight: 400;
+  --websitedemosnet-roboto-regular-upper-font-style: normal;
+  --websitedemosnet-roboto-regular-font-family: Roboto-Regular, sans-serif;
+  --websitedemosnet-roboto-regular-font-size: 17px;
+  --websitedemosnet-roboto-regular-line-height: 28.9px;
+  --websitedemosnet-roboto-regular-font-weight: 400;
+  --websitedemosnet-roboto-regular-font-style: normal;
+  --websitedemosnet-roboto-semibold-upper-font-family: Roboto-SemiBold,
+    sans-serif;
+  --websitedemosnet-roboto-semibold-upper-font-size: 12px;
+  --websitedemosnet-roboto-semibold-upper-line-height: 18px;
+  --websitedemosnet-roboto-semibold-upper-font-weight: 600;
+  --websitedemosnet-roboto-semibold-upper-font-style: normal;
+  --websitedemosnet-roboto-regular-font-family: Roboto-Regular, sans-serif;
+  --websitedemosnet-roboto-regular-font-size: 14px;
+  --websitedemosnet-roboto-regular-line-height: 19.6px;
+  --websitedemosnet-roboto-regular-font-weight: 400;
+  --websitedemosnet-roboto-regular-font-style: normal;
+  --websitedemosnet-roboto-regular-font-family: Roboto-Regular, sans-serif;
+  --websitedemosnet-roboto-regular-font-size: 15px;
+  --websitedemosnet-roboto-regular-line-height: 28.9px;
+  --websitedemosnet-roboto-regular-font-weight: 400;
+  --websitedemosnet-roboto-regular-font-style: normal;
+  --websitedemosnet-roboto-medium-font-family: Roboto-Medium, sans-serif;
+  --websitedemosnet-roboto-medium-font-size: 17px;
+  --websitedemosnet-roboto-medium-line-height: 25.5px;
+  --websitedemosnet-roboto-medium-font-weight: 500;
+  --websitedemosnet-roboto-medium-font-style: normal;
+  --websitedemosnet-roboto-regular-font-family: Roboto-Regular, sans-serif;
+  --websitedemosnet-roboto-regular-font-size: 15.600000381469727px;
+  --websitedemosnet-roboto-regular-line-height: 28.9px;
+  --websitedemosnet-roboto-regular-font-weight: 400;
+  --websitedemosnet-roboto-regular-font-style: normal;
+  --websitedemosnet-roboto-regular-font-family: Roboto-Regular, sans-serif;
+  --websitedemosnet-roboto-regular-font-size: 17px;
+  --websitedemosnet-roboto-regular-line-height: 34px;
+  --websitedemosnet-roboto-regular-font-weight: 400;
+  --websitedemosnet-roboto-regular-font-style: normal;
+  --websitedemosnet-roboto-regular-font-family: Roboto-Regular, sans-serif;
+  --websitedemosnet-roboto-regular-font-size: 17px;
+  --websitedemosnet-roboto-regular-line-height: 17px;
+  --websitedemosnet-roboto-regular-font-weight: 400;
+  --websitedemosnet-roboto-regular-font-style: normal;
+  --websitedemosnet-roboto-regular-font-family: Roboto-Regular, sans-serif;
+  --websitedemosnet-roboto-regular-font-size: 15.300000190734863px;
+  --websitedemosnet-roboto-regular-line-height: 28.9px;
+  --websitedemosnet-roboto-regular-font-weight: 400;
+  --websitedemosnet-roboto-regular-font-style: normal;
+  --websitedemosnet-roboto-bold-font-family: Roboto-Bold, sans-serif;
+  --websitedemosnet-roboto-bold-font-size: 17px;
+  --websitedemosnet-roboto-bold-line-height: 28.9px;
+  --websitedemosnet-roboto-bold-font-weight: 700;
+  --websitedemosnet-roboto-bold-font-style: normal;
+  --websitedemosnet-roboto-bold-font-family: Roboto-Bold, sans-serif;
+  --websitedemosnet-roboto-bold-font-size: 25.5px;
+  --websitedemosnet-roboto-bold-line-height: 28.9px;
+  --websitedemosnet-roboto-bold-font-weight: 700;
+  --websitedemosnet-roboto-bold-font-style: normal;
+  --websitedemosnet-roboto-medium-font-family: Roboto-Medium, sans-serif;
+  --websitedemosnet-roboto-medium-font-size: 15.300000190734863px;
+  --websitedemosnet-roboto-medium-line-height: 28.9px;
+  --websitedemosnet-roboto-medium-font-weight: 500;
+  --websitedemosnet-roboto-medium-font-style: normal;
+
+  /* Effects */
+}
